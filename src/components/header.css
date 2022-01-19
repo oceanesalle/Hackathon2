@@ -1,0 +1,71 @@
+.logo {
+  width: 200px;
+}
+
+.searchBar {
+  width: 35%;
+  max-width: 500px;
+  border-radius: 20px;
+  padding: 5px;
+  height: 20px;
+  align-self: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+.login-text {
+  color: #1E3C87;
+  font-size: 14px;
+  align-self: center;
+  cursor: pointer;
+}
+
+.header-icon {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.header-container-mobile {
+  display: none;
+  background-color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.header-upper-part {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 550px) {
+  .logo {
+    width: 150px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header-container {
+    display: none;
+  }
+
+  .header-container-mobile {
+    display: block;
+  }
+
+  .searchBar {
+    width: 200px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+}
+
+@media (max-width: 300px) {
+  .logo {
+    width: 100px;
+  }
+}
