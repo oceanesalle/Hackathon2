@@ -1,10 +1,9 @@
 import React from 'react';
-import Navbar from './Navbar';
 
 const Soldes = () => {
   return (
     <div>
-      <Navbar/>
+      Soldes
     </div>
   );
 };

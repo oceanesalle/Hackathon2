@@ -1,9 +1,7 @@
 nav {
   margin-top: 0;
-  background-color: #f3f1ea;
-  position: fixed;
+  background-color: #FFFFFF;
   width: 100%;
-  top: 0;
 }
 
 nav ul {
@@ -17,6 +15,11 @@ nav li {
   list-style: none;
   align-self: center;
   color: rgb(17, 68, 136);
+}
+
+nav li a {
+  text-decoration: none;
+  color : rgb(17, 68, 136)
 }
 
 @media (max-width: 700px) {

@@ -11,7 +11,7 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="footer">
       <img className="footer_desktop" src={desktop1} alt="footer1" />
       <img className="footer_desktop" src={desktop2} alt="footer2" />
       <img className="footer_laptop" src={laptop1} alt="footer1" />

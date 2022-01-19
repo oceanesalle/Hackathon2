@@ -1,12 +1,8 @@
 import React from 'react';
-import Navbar from './Navbar';
+import SearchBar from '../SearchBar';
 
 const DIY = () => {
-  return (
-    <div>
-      <Navbar/>
-    </div>
-  );
+  return <SearchBar />;
 };
 
 export default DIY;
