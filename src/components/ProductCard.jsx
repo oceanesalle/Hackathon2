@@ -1,4 +1,6 @@
 import '../components/productCard.css';
+import { BsCart3 } from "react-icons/bs";
+//npm install react-icons
 
 const ProductCard = (props) => {
   return (
@@ -7,8 +9,9 @@ const ProductCard = (props) => {
       <div className='card-body'>
       <p className='card-title'>{props.name}</p>
       <p className='card-description'>{props.description}</p>
-      <h3 className='card-price'>{props.price}</h3>
       </div>
+      <h3 className='card-price'>{props.price} €</h3>
+      <button className='card-button'><BsCart3 /></button>
     </div>
   )
 }

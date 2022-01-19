@@ -120,3 +120,5 @@ const items = [
     price: 0.0,
   },
 ];
+
+export default items;
