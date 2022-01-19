@@ -1,6 +1,6 @@
 .card-container {
   width: 12em;
-  height: 23em;
+  min-height: 25em;
   background-color: white;
   padding: 1em;
   box-shadow: 0 3px 20px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
@@ -8,6 +8,11 @@
   margin-top: 50px;
   margin-right: 10px;
   border-radius: 25px;
+  text-align: center;
+}
+
+.card-button:hover {
+  color: #135fc2;
 }
 
 .card-body {

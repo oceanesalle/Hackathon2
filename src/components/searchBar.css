@@ -4,7 +4,7 @@
 }
 
 .diy-searchbar {
-  width: 450px;
+  width: 200px;
   border-radius: 10px;
   padding: 5px;
   margin-top: 50px;
@@ -23,5 +23,15 @@
 @media (min-width: 500px) {
   .diy-search-result {
     justify-content: space-evenly;
+  }
+
+  .diy-searchbar {
+    width: 450px;
+  }
+}
+
+@media (min-width: 350px) {
+  .diy-searchbar {
+    width: 300px
   }
 }
