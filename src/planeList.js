@@ -1,0 +1,60 @@
+const plane = [
+  {
+    id: 1,
+    name: "Paillettes",
+    utility: "avion de chasse",
+    image: "https://i.imgur.com/ntyePih.jpg",
+    desc: "Paillettes glitters RICHARD, tourmaline 80 Gramme",
+    price: 19.9,
+  },
+  {
+    id: 2,
+    name: "Carton",
+    utility: "avion de chasse",
+    image: "https://i.imgur.com/A81q0Tn.jpg",
+    desc: "Carton 54 l, l.60 cm x H.30 cm x p.30 cm",
+    price: 2.3,
+  },
+  {
+    id: 3,
+    name: "Pistolet à colle",
+    utility: "avion de chasse",
+    image: "https://i.imgur.com/gdkG52W.jpg",
+    desc: "Pistolet À Colle Jbm",
+    price: 14.6,
+  },
+  {
+    id: 4,
+    name: "Bâtonnets de colle",
+    utility: "avion de chasse",
+    image: "https://i.imgur.com/wx54TVs.jpg",
+    desc: "200 bâtonnets de colle Ø11mm pour pistolet à colle - 5 couleurs",
+    price: 29.95,
+  },
+  {
+    id: 5,
+    name: "Stickers",
+    utility: "avion de chasse",
+    image: "https://i.imgur.com/yd8SAQy.jpg",
+    desc: "Stickers Etoile",
+    price: 22.0,
+  },
+  {
+    id: 6,
+    name: "Ruban adhésif rose",
+    utility: "avion de chasse",
+    image: "https://i.imgur.com/GyEAdO1.jpg",
+    desc: "Ruban adhésif l.48 mm x L.25 m surfaces délicates",
+    price: 6.9,
+  },
+  {
+    id: 7,
+    name: "Lunettes",
+    utility: "avion de chasse",
+    image: "https://i.imgur.com/0zNa4uj.jpg",
+    desc: "Lunette de protection Portwest Classic Safety AMBRE Unique",
+    price: 1.54,
+  },
+];
+
+export default plane;
