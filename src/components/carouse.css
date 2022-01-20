@@ -15,4 +15,8 @@
 
 .video_title {
   text-align: center;
+  margin-bottom: 1cm;
+  margin-top: 2cm;
+  font-size:x-large;
+  color: blue;
 }
