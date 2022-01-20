@@ -8,7 +8,7 @@
   border-radius: 10px;
   padding: 5px;
   margin-top: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 .diy-search-result {
@@ -17,6 +17,30 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.searchbar-explanation {
+  background-color: rgb(20, 199, 184);
+  border-radius: 30px;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 2em;
+  margin: 1em;
+}
+
+.diy-suggestions {
+  display: flex;
+  margin: 0 auto;
+  width: fit-content;
+  overflow: auto;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.diy-suggestions p {
+  padding: 0.5em;
+  color: grey;
+  font-size: smaller;
 }
 
 
