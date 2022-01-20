@@ -25,7 +25,7 @@ const Carouse = () => {
 
   return (
     <div>
-      <h1 className="video_title">Tips videos</h1>
+      <h1 className="video_title">Tuto video</h1>
       <Carousel>
         <Carousel.Item>
           <YoutubeEmbed embedId="72TCBR9CFjQ" />

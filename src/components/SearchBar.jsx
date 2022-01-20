@@ -18,7 +18,7 @@ const SearchBar = () => {
       </div>
     <div className='searchbar-explanation'>
       <p><b>Vous n'êtes pas sûr de ce dont vous avez besoin pour vos travaux?</b></p>
-      <p>Tapez de ce que vous voulez faire dans la barre de recherche ci-dessus, et nous vous montrerons tous les produits nécessaires !</p>
+      <p>Tapez ce que vous souhaitez faire dans la barre de recherche ci-dessus. Nous nous chargerons de vous proposer tous les produits nécessaires !</p>
     </div>
     {searchValue === '' ? null : <div className="diy-search-result">{items.filter(item => item.utility.includes(searchValue.toLowerCase())).map(one => ( <ProductCard image={one.image} name={one.name} description={one.desc} price={one.price}/> ))}</div>}  
 </div>)
